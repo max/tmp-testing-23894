@@ -1,0 +1,28 @@
+{
+  "name": "max.wtf",
+  "version": "0.1.0",
+  "description": "My personal internet website",
+  "private": true,
+  "main": "pages/index.js",
+  "author": "Max Schoening <max@max.wtf>",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "export": "next export",
+    "start": "echo $PORT && next start --hostname 0.0.0.0 --port $PORT",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.13.0",
+    "jest": "24.8.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.8.6"
+  }
+}
